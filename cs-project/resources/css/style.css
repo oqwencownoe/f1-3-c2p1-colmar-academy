@@ -1,0 +1,497 @@
+/* Header and navigation part
+*/
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 64px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.logo .ACADEMY {
+  color: silver;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    color: black;
+    font-family: cursive;
+}
+
+.navigation .item-B {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.navigation .item-C {
+  margin-right: 16px;
+}
+
+/* This is the opening window part
+*/
+.opening-window  {
+  display: flex;
+  flex-direction: row;
+  background-color: silver;
+  padding: 32px 24px;
+  width: 100%;
+}
+
+.opening-window img {
+  width: 60%;
+  height: 40%;
+}
+
+.header2 {
+  display: flex;
+  font-size: 32px;
+  font-weight: bold;
+  width: 400px;
+  opacity: 0.7;
+}
+
+.sub-header {
+  display: flex;
+  width: 400px;
+  color: rgba(0,0,0,0.7);
+  margin-top: 24px;
+  width: 400px;
+}
+
+.start-here {
+  display: flex;
+  width: 400px;
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 24px;
+  height: 40px;
+  justify-content: center;
+}
+
+.start-here p {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.sub-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  align-items: center;
+  height: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Introduction page
+*/
+.introduction {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.introduction img {
+  width: 60%;
+  height: 400px;
+  height: auto;
+}
+
+.motto {
+  color: rgba(0,0,0,0.7);
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  width: 500px;
+}
+
+.description {
+  width: 500px;
+  color: dimgray;
+}
+
+.conclusion {
+  color: dimgray;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.timelineA {
+  display: flex;
+  flex-direction: row;
+}
+
+.timelineA img {
+  width: 35%;
+  height: 35%;
+  margin: 24px;
+}
+
+.timelineB {
+  display: flex;
+  flex-direction: row;
+}
+
+.timelineB img {
+  width: 35%;
+  height: 35%;
+  margin: 24px;
+}
+
+.timelineC {
+  display: flex;
+  flex-direction: row;
+}
+
+.timelineC img {
+  width: 35%;
+  height: 35%;
+  margin: 24px;
+}
+
+.inner-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header3 {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(0,0,0,0.7);
+}
+
+.inner-content a {
+  color: #87CEFA;
+}
+
+.inner-content p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+/* Course content
+*/
+
+.header4 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 32px;
+  color: rgba(0,0,0,0.7);
+}
+
+.SE img,
+.CA img,
+.Design img {
+  width: 300px;
+}
+
+.text-description {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.first-line {
+  display: flex;
+  flex-direction: row;
+  margin-left: 72px;
+  margin-right: 72px;
+  justify-content: center;
+}
+
+.CA {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.header5 {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(0,0,0,0.7);
+  margin-top: 16px;
+}
+
+.namecontentI {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.namecontentI,
+.namecontentII {
+  color: rgba(0,0,0,0.5);
+  font-family: cursive;
+}
+
+.Data img,
+.Business img,
+.Marketing img {
+  width: 300px;
+}
+
+.text-description {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.second-line {
+  display: flex;
+  flex-direction: row;
+  margin-left: 72px;
+  margin-right: 72px;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.Business {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.header5 {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(0,0,0,0.7);
+  margin-top: 16px;
+}
+
+.namecontentI {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.namecontentI,
+.namecontentII {
+  color: rgba(0,0,0,0.5);
+  font-family: cursive;
+}
+
+.informationbox {
+  width: 100%;
+  background-color: silver;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  overflow: hidden;
+}
+
+/* Video-part
+*/
+
+.header6 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 32px;
+  color: rgba(0,0,0,0.7);
+}
+
+.videocolumn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+.header7 {
+  font-size: 32px;
+  color: rgba(0,0,0,0.7);
+  font-weight: bold;
+}
+
+video {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.videobox {
+  display: flex;
+  flex-direction: column;
+}
+
+.videohead {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  width: 60%;
+}
+
+.videohead .head8 {
+  margin-top: 24px;
+  font-size: 32px;
+  color: rgba(0,0,0,0.7);
+  font-weight: bold;
+}
+
+.videohead .videodescription {
+  margin-top: 8px;
+  line-height: 20px;
+  font-family: cursive;
+  margin-bottom: 32px;
+}
+
+.FM {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: 20px;
+}
+
+.Fisma {
+  display: flex;
+  flex-direction: row;
+}
+
+.Fisma img {
+  width: 200px;
+  height: 200px;
+}
+
+.Nowandthen {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.Nowandthen img {
+  width: 200px;
+  height: 200px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 16px;
+  width: 150px;
+}
+
+.Fismahead,
+.Nowandthenhead {
+  font-size: 20px;
+  color: rgba(0,0,0,0.7);
+  font-weight: bold;
+}
+
+.Fismadescription,
+.Nowandthendescription {
+  margin-top: 16px;
+  font-family: cursive;
+  color: dimgray;
+}
+
+.Firstbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.finalbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 24px;
+}
+
+.foot {
+  margin-top: 16px;
+  margin-left: 24px;
+  color: rgba(0,0,0,0.7);
+}
+
+@media only screen and (min-width: 780px) {
+  .header-candidate {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .header {
+    display: none;
+  }
+
+  .header-candidate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 64px;
+  }
+
+  .introduction {
+    display: none;
+  }
+
+  .opening-window {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .opening-window img{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .first-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .second-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .SE,
+  .CA,
+  .Design,
+  .Data,
+  .Business,
+  .Marketing {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .timeline {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
